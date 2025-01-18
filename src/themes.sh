@@ -87,5 +87,8 @@ THEME['ghgreen']="#3fb950"
 THEME['ghmagenta']="#A371F7"
 THEME['ghred']="#d73a4a"
 THEME['ghyellow']="#d29922"
+THEME['ghsky']="#3B4261"
+THEME['ghturquoise']="#27a1b9"
+THEME['ghblack']="#16161E"
 
 RESET="#[fg=${THEME[foreground]},bg=${THEME[background]},nobold,noitalics,nounderscore,nodim]"
