@@ -23,7 +23,7 @@ tmux set -g message-style "bg=${THEME[blue]},fg=${THEME[background]}"
 tmux set -g message-command-style "fg=${THEME[white]},bg=${THEME[black]}"
 
 tmux set -g pane-border-style "fg=${THEME[bblack]}"
-tmux set -g pane-active-border-style "fg=${THEME[blue]}"
+tmux set -g pane-active-border-style "fg=${THEME[ghturquoise]}"
 tmux set -g pane-border-status off
 
 tmux set -g status-style bg="${THEME[ghblack]}"
@@ -35,8 +35,8 @@ default_window_id_style="digital"
 default_pane_id_style="hsquare"
 default_zoom_id_style="dsquare"
 
-default_terminal_icon=""
-default_active_terminal_icon=""
+default_terminal_icon=""
+default_active_terminal_icon=""
 
 window_id_style="$(echo "$TMUX_VARS" | grep '@tokyo-night-tmux_window_id_style' | cut -d" " -f2)"
 pane_id_style="$(echo "$TMUX_VARS" | grep '@tokyo-night-tmux_pane_id_style' | cut -d" " -f2)"
