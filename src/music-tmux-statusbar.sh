@@ -16,9 +16,9 @@ source $CURRENT_DIR/themes.sh
 
 ACCENT_COLOR="${THEME[blue]}"
 SECONDARY_COLOR="${THEME[background]}"
-BG_COLOR="${THEME[background]}"
-BG_BAR="${THEME[background]}"
-TIME_COLOR="${THEME[black]}"
+BG_COLOR="${THEME[ghblack]}"
+BG_BAR="${THEME[ghblack]}"
+TIME_COLOR="${THEME[blue]}"
 
 if [[ $1 =~ ^[[:digit:]]+$ ]]; then
   MAX_TITLE_WIDTH=$1

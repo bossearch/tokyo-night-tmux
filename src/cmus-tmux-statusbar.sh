@@ -7,7 +7,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 ACCENT_COLOR="#7aa2f7"
 SECONDARY_COLOR="#24283B"
 BG_COLOR="#1F2335"
-BG_BAR="#15161e"
+BG_BAR="#16161e"
 TIME_COLOR="#414868"
 
 if [[ $1 =~ ^[[:digit:]]+$ ]]; then
